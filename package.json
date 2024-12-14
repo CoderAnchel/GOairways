@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@ag-grid-community/theming": "^32.3.3",
+    "@mdi/font": "^7.4.47",
+    "@pinia/nuxt": "^0.8.0",
+    "ag-grid-community": "^32.3.3",
+    "ag-grid-vue3": "^32.3.3",
+    "jsonwebtoken": "^9.0.2",
+    "luxon": "^3.5.0",
+    "mapbox-gl": "^3.8.0",
+    "nuxt": "^3.14.1592",
+    "pinia": "^2.2.8",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sonner": "^1.7.0",
+    "vue": "^3.5.13",
+    "vue-router": "latest",
+    "vue-select": "^4.0.0-beta.6",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue-jsx": "^4.1.1",
+    "vite-plugin-vuetify": "^2.0.4",
+    "vuetify": "^3.7.4"
+  }
+}

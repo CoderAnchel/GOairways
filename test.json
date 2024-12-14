@@ -1,0 +1,196 @@
+{
+  "$id": "routeCreator",
+  "airportFrom": {
+    "codigo_iata": "BCN",
+    "id": 1,
+    "latitud": "41.29710000",
+    "longitud": "2.07850000",
+    "nombre": "Aeropuerto Josep Tarradellas Barcelona-El Prat (BCN)",
+    "ubicacion": "Barcelona, España",
+    "url": "https://www.aena.es/es/aeropuerto-barcelona/index.html",
+    "zona_horaria": "CET"
+  },
+  "airportTo": {
+    "codigo_iata": "BTS",
+    "id": 42,
+    "latitud": "48.17000000",
+    "longitud": "17.21280000",
+    "nombre": "Bratislava Airport (BTS)",
+    "ubicacion": "Bratislava, Eslovaquia",
+    "url": "https://www.bts.aero/",
+    "zona_horaria": "CET"
+  },
+  "showDistance": true,
+  "tipo": "SHORT-RANGE",
+  "selectedModels": [
+    {
+      "alcanze": 3900,
+      "capacidad": 220,
+      "configuracion": "2-2",
+      "enevergadura": 34,
+      "filas": 20,
+      "id": 2,
+      "longitud": 38,
+      "modelo": "Airbus A320-200",
+      "motores": 2,
+      "tipo": "SHORT-RANGE"
+    },
+    {
+      "alcanze": 6850,
+      "capacidad": 156,
+      "configuracion": "3-3",
+      "enevergadura": 34,
+      "filas": 26,
+      "id": 10,
+      "longitud": 34,
+      "modelo": "Airbus A319-100",
+      "motores": 2,
+      "tipo": "SHORT-RANGE"
+    }
+  ],
+  "dailyFrequ": 2,
+  "DaysAWeek": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+  ],
+  "SelectedDays": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
+  "takeOffTime": null,
+  "landingTime": null,
+  "flightTime": { "horas": 1, "minutos": 29 },
+  "takeOffTickets": [
+    {
+      "id": 1,
+      "airportFrom": {
+        "codigo_iata": "BCN",
+        "id": 1,
+        "latitud": "41.29710000",
+        "longitud": "2.07850000",
+        "nombre": "Aeropuerto Josep Tarradellas Barcelona-El Prat (BCN)",
+        "ubicacion": "Barcelona, España",
+        "url": "https://www.aena.es/es/aeropuerto-barcelona/index.html",
+        "zona_horaria": "CET"
+      },
+      "airportTo": {
+        "codigo_iata": "BTS",
+        "id": 42,
+        "latitud": "48.17000000",
+        "longitud": "17.21280000",
+        "nombre": "Bratislava Airport (BTS)",
+        "ubicacion": "Bratislava, Eslovaquia",
+        "url": "https://www.bts.aero/",
+        "zona_horaria": "CET"
+      },
+      "takeOffTime": "16:30",
+      "landingTime": "17:59",
+      "flightTime": { "horas": 1, "minutos": 29 },
+      "selectedModels": [
+        {
+          "alcanze": 3900,
+          "capacidad": 220,
+          "configuracion": "2-2",
+          "enevergadura": 34,
+          "filas": 20,
+          "id": 2,
+          "longitud": 38,
+          "modelo": "Airbus A320-200",
+          "motores": 2,
+          "tipo": "SHORT-RANGE"
+        },
+        {
+          "alcanze": 6850,
+          "capacidad": 156,
+          "configuracion": "3-3",
+          "enevergadura": 34,
+          "filas": 26,
+          "id": 10,
+          "longitud": 34,
+          "modelo": "Airbus A319-100",
+          "motores": 2,
+          "tipo": "SHORT-RANGE"
+        }
+      ],
+      "SelectedDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "id": 2,
+      "airportFrom": {
+        "codigo_iata": "BCN",
+        "id": 1,
+        "latitud": "41.29710000",
+        "longitud": "2.07850000",
+        "nombre": "Aeropuerto Josep Tarradellas Barcelona-El Prat (BCN)",
+        "ubicacion": "Barcelona, España",
+        "url": "https://www.aena.es/es/aeropuerto-barcelona/index.html",
+        "zona_horaria": "CET"
+      },
+      "airportTo": {
+        "codigo_iata": "BTS",
+        "id": 42,
+        "latitud": "48.17000000",
+        "longitud": "17.21280000",
+        "nombre": "Bratislava Airport (BTS)",
+        "ubicacion": "Bratislava, Eslovaquia",
+        "url": "https://www.bts.aero/",
+        "zona_horaria": "CET"
+      },
+      "takeOffTime": "19:34",
+      "landingTime": "21:03",
+      "flightTime": { "horas": 1, "minutos": 29 },
+      "selectedModels": [
+        {
+          "alcanze": 3900,
+          "capacidad": 220,
+          "configuracion": "2-2",
+          "enevergadura": 34,
+          "filas": 20,
+          "id": 2,
+          "longitud": 38,
+          "modelo": "Airbus A320-200",
+          "motores": 2,
+          "tipo": "SHORT-RANGE"
+        },
+        {
+          "alcanze": 6850,
+          "capacidad": 156,
+          "configuracion": "3-3",
+          "enevergadura": 34,
+          "filas": 26,
+          "id": 10,
+          "longitud": 34,
+          "modelo": "Airbus A319-100",
+          "motores": 2,
+          "tipo": "SHORT-RANGE"
+        }
+      ],
+      "SelectedDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "_isOptionsAPI": true,
+  "distance": 1415
+}
